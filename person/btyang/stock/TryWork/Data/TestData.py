@@ -18,7 +18,7 @@ class TestData(InterfaceData):
         print("Log:TestData GetData")
         # path="../../resource/dataSource";
         path="/Users/yangbotian/Downloads/股票2003.1-2003.6一分钟csv";
-        stockStore = read.getData(path,idx=50,randomArg=1);
+        stockStore = read.getData(path,idx=30,randomArg=1);
 
         #从对象里获取训练和测试数据
         trainPart = stockStore.getTrainData(dateEnd=DateTime.datetime.strptime("2003/06/20", '%Y/%m/%d').date());

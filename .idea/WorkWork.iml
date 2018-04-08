@@ -8,7 +8,7 @@
       <sourceFolder url="file://$MODULE_DIR$/person/btyang/stock/TryWork/Data" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/person/btyang/stock/TryWork/Modules" isTestSource="false" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="Python 3.6.5 virtualenv at ~/virtualenv/py36vir" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="TestRunnerService">
