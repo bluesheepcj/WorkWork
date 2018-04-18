@@ -17,9 +17,9 @@ from Stoce_DataStore import Stock_DataStore
 class TestData(InterfaceData):
     def GetData(self):
         path="/Users/yangbotian/Downloads/股票2003.1-2003.6一分钟csv";
-        stockStore = read.getData(path,idx=3,randomArg=1);
-        # SerilizeDataFileHelper.save(stockStore,"/Users/yangbotian/Downloads/SaveSerilizeData/data_random_3")
-
+        stockStore = read.getData(path,idx=10,randomArg=1);
+        # SerilizeDataFileHelper.save(stockStore,"/Users/yangbotian/Downloads/SaveSerilizeData/data_random_4")
+        #
         # stockStore = SerilizeDataFileHelper.read("/Users/yangbotian/Downloads/SaveSerilizeData/data_random_3")
         #从对象里获取训练和测试数据
         trainPart = stockStore.getTrainData(dateEnd=DateTime.datetime.strptime("2003/06/20", '%Y/%m/%d').date());
